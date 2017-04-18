@@ -133,5 +133,5 @@ gulp.task('watch', function() {
 	gulp.watch(globs.images, ['images']);
 	gulp.watch(globs.scripts, ['scripts']);
 	gulp.watch(globs.styles, ['styles']);
-	gulp.watch([globs.pages, 'templates/**/*', 'data.json'], ['pages']);
+	gulp.watch([globs.pages, 'templates/**/*'], ['pages']);
 });
