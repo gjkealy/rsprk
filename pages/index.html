@@ -1,6 +1,40 @@
 {% set title = "Home" %}
+{% set headline = "Rosepark" %}
+{% set sub = "Home comforts for independent older people." %}
 {% extends "layout.html" %}
 
 {% block content %}
-<h1>This is the actual index page</h1>
+<section class="index-standfirst bg-primary">
+	<div class="container">
+		<div class="row">
+      <div class="col-md-8">
+        <p class="lead">Donec et hendrerit sem. Vestibulum quis sapien id ex fermentum facilisis a nec ligula. Ut egestas enim nisi, sed iaculis erat imperdiet eget. Nullam vitae nibh cursus, vulputate nisl vitae, pulvinar ante. Aliquam ultricies dapibus pretium. Vivamus cursus placerat malesuada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="index-images container">
+	<div class="row">
+		<div class="index-image index-image-1 col-md-4">
+			<img class="img-fluid" src="dist/images/seaside.jpg">
+		</div>
+		<div class="index-image index-image-2 col-md-4">
+			<img class="img-fluid" src="dist/images/bird-house.jpg">
+		</div>
+		<div class="index-image index-image-3 col-md-4">
+			<img class="img-fluid" src="dist/images/garden-2.jpg">
+		</div>
+	</div>
+	<div class="row">
+		<div class="index-image index-image-1 col-md-4">
+			<img class="img-fluid" src="dist/images/statue.jpg">
+		</div>
+		<div class="index-image index-image-2 col-md-4">
+			<img class="img-fluid" src="dist/images/tiles.jpg">
+		</div>
+		<div class="index-image index-image-3 col-md-4">
+			<img class="img-fluid" src="dist/images/bird.jpg">
+		</div>
+	</div>
+</section>
 {% endblock %}

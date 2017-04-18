@@ -1,0 +1,18 @@
+.footer-rsprk {
+
+  padding: 2rem 0;
+  margin-top: 2rem;
+  font-size: 85%;
+  text-align: center;
+  background-color: $gray-lighter;
+  color: $gray-light;
+
+  p {
+  	margin-bottom: 0;
+  }
+
+  @include media-breakpoint-up(sm) {
+    text-align: left;
+  }
+
+}

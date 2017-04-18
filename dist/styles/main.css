@@ -511,7 +511,7 @@ mark,
   .list-inline-item:not(:last-child) {
     margin-right: 5px; }
 
-.initialism {
+.initialism, .navbar-rsprk .navbar-nav .nav-link {
   font-size: 90%;
   text-transform: uppercase; }
 
@@ -3820,13 +3820,13 @@ a.badge:focus, a.badge:hover {
     background-color: #a92f30; }
 
 .jumbotron {
-  padding: 4rem 2rem;
-  margin-bottom: 4rem;
+  padding: 3rem 1.5rem;
+  margin-bottom: 3rem;
   background-color: #eceeef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 8rem 4rem; } }
+      padding: 6rem 3rem; } }
 
 .jumbotron-hr {
   border-top-color: #d0d5d8; }
@@ -7154,3 +7154,45 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.navbar-rsprk .navbar-nav .nav-link {
+  text-transform: uppercase;
+  padding-right: 2rem;
+  font-weight: bold;
+  color: white; }
+
+.jumbotron {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 63, 0.5)), to(rgba(18, 42, 63, 0.5))), url("../images/garden.jpg");
+  background-image: -webkit-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
+  background-image: -o-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
+  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
+  background-position: 50% 70%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: white;
+  margin-bottom: 0; }
+
+.footer-rsprk {
+  padding: 2rem 0;
+  margin-top: 2rem;
+  font-size: 85%;
+  text-align: center;
+  background-color: #eceeef;
+  color: #636c72; }
+  .footer-rsprk p {
+    margin-bottom: 0; }
+  @media (min-width: 576px) {
+    .footer-rsprk {
+      text-align: left; } }
+
+.index-standfirst {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white; }
+
+.index-images {
+  padding-top: 2rem; }
+  .index-images .row {
+    margin-bottom: 3rem; }
+  .index-images .index-image {
+    height: 12rem; }

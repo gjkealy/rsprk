@@ -1,0 +1,11 @@
+.navbar-rsprk {
+  .navbar-nav {
+    .nav-link {
+      text-transform: uppercase;
+      padding-right: 2rem;
+      font-weight: bold;
+      color: white;
+      @extend .initialism;
+    }
+  }
+}
