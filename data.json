@@ -1,0 +1,14 @@
+{
+	"globals": {
+		"baseurl": "rsprk/"
+	},
+  "pages": [{
+    "title": "Home"
+  }, {
+    "title": "About"
+  }, {
+  	"title": "Blog"
+  }, {
+  	"title": "Contact"
+  }]
+}

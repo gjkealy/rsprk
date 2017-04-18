@@ -1,0 +1,1 @@
+- add jsHint to build process
