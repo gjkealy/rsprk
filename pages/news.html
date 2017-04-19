@@ -1,0 +1,20 @@
+{% set slug = "news" %}
+{% set sub = "Updates from Rosepark." %}
+{% extends "layout.html" %}
+
+{% block content %}
+<main class="">
+	<div class="container">
+		<div class="row">
+      <div class="col-md-8">
+      {% for article in articles %}
+	      <article class="article">
+	      	<a href="#"><h2>{{ article.title }}</h2></a>
+	      	<p>{{ article.sub }}</p>
+	      </article>
+	    {% endfor %}
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}

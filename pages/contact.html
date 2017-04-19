@@ -1,7 +1,30 @@
-{% set title = "Contact" %}
-{% set headline = "Contact" %}
+{% set slug = "contact" %}
 {% set sub = "We'd love to hear from you." %}
 {% extends "layout.html" %}
 
 {% block content %}
+<main class="">
+	<div class="container">
+		<div class="row">
+      <div class="col-md-8">
+				<form>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputName1">Name</label>
+				    <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter Name">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleMessage">Message</label>
+				    <textarea class="form-control" id="exampleMessage" rows="3"></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</main>
 {% endblock %}

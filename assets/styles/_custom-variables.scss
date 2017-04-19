@@ -2,6 +2,8 @@ html {
 	font-size: 18px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+
 $white:  #fff !default;
 $black:  #000 !default;
 $red:    #ca4142 !default;
@@ -12,5 +14,7 @@ $blue:   #337ab7 !default;
 $teal:   #1c5a4e !default;
 $pink:   #c53d8b !default;
 $purple: #6c6474 !default;
+
+$font-family-sans-serif: "Poppins", "Helvetica Neue", Arial, sans-serif !default;
 
 $jumbotron-padding: 3rem;

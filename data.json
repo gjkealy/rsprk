@@ -1,7 +1,9 @@
 {
+
   "globals": {
     "baseurl": "/rsprk"
   },
+
   "pages": [{
     "title": "home",
     "url": "./index.html"
@@ -9,10 +11,21 @@
     "title": "about",
     "url": "./about.html"
   }, {
-  	"title": "blog",
-  	"url": "./blog.html"
+  	"title": "news",
+  	"url": "./news.html"
   }, {
   	"title": "contact",
   	"url": "./contact.html"
+  }],
+
+  "articles": [{
+    "title": "This is an Example",
+    "sub": "Nullam vitae nibh cursus, vulputate nisl vitae, pulvinar ante. Aliquam ultricies dapibus pretium. Vivamus cursus placerat malesuada."
+  }, {
+    "title": "Here is Another One",
+    "sub": "Nullam vitae nibh cursus, vulputate nisl vitae, pulvinar ante. Aliquam ultricies dapibus pretium. Vivamus cursus placerat malesuada."
+  }, {
+    "title": "And Another",
+    "sub": "Nullam vitae nibh cursus, vulputate nisl vitae, pulvinar ante. Aliquam ultricies dapibus pretium. Vivamus cursus placerat malesuada."
   }]
 }

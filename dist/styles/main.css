@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500");
 html {
   font-size: 18px; }
 
@@ -277,7 +278,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -4316,7 +4317,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4398,7 +4399,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7161,16 +7162,35 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-weight: bold;
   color: white; }
 
-.jumbotron {
+.jumbotron-rosepark {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 63, 0.5)), to(rgba(18, 42, 63, 0.5))), url("../images/garden.jpg");
   background-image: -webkit-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
   background-image: -o-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
-  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg");
+  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden.jpg"); }
+
+.jumbotron-about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 63, 0.5)), to(rgba(18, 42, 63, 0.5))), url("../images/bird.jpg");
+  background-image: -webkit-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/bird.jpg");
+  background-image: -o-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/bird.jpg");
+  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/bird.jpg"); }
+
+.jumbotron-contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 63, 0.5)), to(rgba(18, 42, 63, 0.5))), url("../images/garden-2.jpg");
+  background-image: -webkit-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden-2.jpg");
+  background-image: -o-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden-2.jpg");
+  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/garden-2.jpg"); }
+
+.jumbotron-news {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 42, 63, 0.5)), to(rgba(18, 42, 63, 0.5))), url("../images/statue.jpg");
+  background-image: -webkit-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/statue.jpg");
+  background-image: -o-linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/statue.jpg");
+  background-image: linear-gradient(rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5)), url("../images/statue.jpg"); }
+
+.jumbotron {
   background-position: 50% 70%;
   -webkit-background-size: cover;
           background-size: cover;
-  color: white;
-  margin-bottom: 0; }
+  color: white; }
 
 .footer-rsprk {
   padding: 2rem 0;
@@ -7188,7 +7208,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .index-standfirst {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: white; }
+  color: white;
+  margin-top: -3rem; }
 
 .index-images {
   padding-top: 2rem; }
@@ -7196,3 +7217,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     margin-bottom: 3rem; }
   .index-images .index-image {
     height: 12rem; }
+
+.article {
+  border-top: 1px solid #337ab7;
+  padding-top: 1rem;
+  padding-bottom: 3rem; }

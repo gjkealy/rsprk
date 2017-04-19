@@ -1,7 +1,21 @@
-.jumbotron {
+.jumbotron-rosepark {
 	background-image: linear-gradient( rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5) ), url('../images/garden.jpg');
+}
+
+.jumbotron-about {
+	background-image: linear-gradient( rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5) ), url('../images/bird.jpg');
+}
+
+.jumbotron-contact {
+	background-image: linear-gradient( rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5) ), url('../images/garden-2.jpg');
+}
+
+.jumbotron-news {
+	background-image: linear-gradient( rgba(18, 42, 63, 0.5), rgba(18, 42, 63, 0.5) ), url('../images/statue.jpg');
+}
+
+.jumbotron {
 	background-position: 50% 70%;
 	background-size: cover;
 	color: white;
-	margin-bottom: 0;
 }
